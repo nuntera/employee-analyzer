@@ -25,8 +25,7 @@ public class DB {
             new Employee("Tracy", "Forge", 1200, 23, 2020),
             new Employee("Amir", "Ishaan", 1200, 24, 2020),
             new Employee("Lucas", "Wright", 1200, 23, 2020),
-            new Employee("Mary", "Winston", 1200, 24, 2020)
-    );
+            new Employee("Mary", "Winston", 1200, 24, 2020));
 
     private static List<Employee> salesDepartment = Arrays.asList(
             new Employee("Melissa", "Ashby", 1600, 45, 2014),
@@ -43,8 +42,7 @@ public class DB {
             new Employee("Lou", "Sakamoto", 1400, 31, 2018),
             new Employee("Luke", "Tanner", 1350, 31, 2019),
             new Employee("Ursula", "Crane", 1500, 34, 2019),
-            new Employee("Mary", "Biggs", 1300, 25, 2019)
-    );
+            new Employee("Mary", "Biggs", 1300, 25, 2019));
 
     private static List<Employee> marketingDepartment = Arrays.asList(
             new Employee("Patricia", "Hartley", 1500, 36, 2016),
@@ -56,8 +54,7 @@ public class DB {
             new Employee("Owen", "Brahim", 1350, 31, 2019),
             new Employee("Ross", "Greene", 1400, 31, 2019),
             new Employee("Sarah", "Bauer", 1300, 26, 2020),
-            new Employee("Theresa", "Thomsen", 1250, 25, 2020)
-    );
+            new Employee("Theresa", "Thomsen", 1250, 25, 2020));
 
     private static List<Employee> developmentDepartment = Arrays.asList(
             new Employee("Roy", "Richardson", 1850, 53, 2014),
@@ -98,8 +95,7 @@ public class DB {
             new Employee("Fred", "Nichols", 1300, 26, 2020),
             new Employee("Kevin", "Beardsley", 1450, 35, 2020),
             new Employee("Emily", "Barnacle", 1250, 24, 2020),
-            new Employee("Brian", "Mills", 1250, 25, 2020)
-    );
+            new Employee("Brian", "Mills", 1250, 25, 2020));
 
     public static List<Employee> getHrDepartment() {
         return hrDepartment;
